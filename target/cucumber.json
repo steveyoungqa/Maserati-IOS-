@@ -1,0 +1,478 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 45,
+            "value": "#      | iPhone 7 | 11.2    | /Users/steveyoung/Documents/Appium/ | Maserati.app | Ted       | Test    | 21041977 | 018121212121 | me206lb  |"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 300628,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Maserati IOS User Journey WIP",
+        "description": "",
+        "id": "maserati-ios-demo;maserati-ios-user-journey-wip;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 47414733,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 326991495,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am using Appium for device \"iPhone X\" and IOS version \"11.2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iPhone X",
+                  "offset": 30
+                },
+                {
+                  "val": "11.2",
+                  "offset": 57
+                }
+              ],
+              "location": "iosStepdefs.iAmUsingAppiumForDeviceAndIOSVersion(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170844,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am using IOS the app directory of \"/Users/steveyoung/Documents/Appium/\" and app \"Maserati.app\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/Users/steveyoung/Documents/Appium/",
+                  "offset": 37
+                },
+                {
+                  "val": "Maserati.app",
+                  "offset": 83
+                }
+              ],
+              "location": "iosStepdefs.iAmUsingTheAppDirectoryOfAndApp(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41076600267,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I launch the App on the IOS Device",
+            "match": {
+              "location": "iosStepdefs.iLaunchTheAppOnTheDevice()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30653,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the ISO Main Maserati opening scene is played",
+            "match": {
+              "location": "iosStepdefs.theISOMainMaseratiOpeningSceneIsPlayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 607011469,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "then I IOS swipe to the Left",
+            "match": {
+              "location": "iosStepdefs.thenIIOSSwipeToTheLeft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11640300695,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I IOS select the Book icon",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectTheBookIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 843544204,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I IOS select the Create Account button",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectTheCreateAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3116876314,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I IOS enter A First Name of \"Ted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ted",
+                  "offset": 29
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterAFirstNameOf(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1034363170,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I IOS select Next",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectNext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2508951758,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I IOS enter a Surname of \"Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 26
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterASurnameOf(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 954163570,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I IOS select Next",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectNext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3108806839,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I IOS enter a Unique Email Address",
+            "match": {
+              "location": "iosStepdefs.iIOSEnterAUniqueEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 948124256,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I IOS select Next",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectNext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4241239147,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I IOS enter a Date of Birth of \"21041977\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21041977",
+                  "offset": 32
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterADateOfBirthOf(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 916002333,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I IOS select Next",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectNext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2671267798,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I IOS enter a Phone Number of \"018121212121\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "018121212121",
+                  "offset": 31
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterAPhoneNumberOf(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 927520291,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I IOS select Next",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectNext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1464573545,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 26,
+                "value": "#    Then I IOS enter a PostCode of \"\u003cpostcode\u003e\""
+              }
+            ],
+            "line": 28,
+            "name": "I IOS select Use my current location",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectUseMyCurrentLocation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1106130739,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I IOS Allow the device to use My Location",
+            "match": {
+              "location": "iosStepdefs.iIOSAllowTheDeviceToUseMyLocation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6061455094,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I IOS select the \"Lancaster Colchester\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lancaster Colchester",
+                  "offset": 18
+                }
+              ],
+              "location": "iosStepdefs.iIOSSelectTheOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1266627319,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I IOS select Next",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectNext()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 988487430,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I IOS choose to Skip the Add Vin option",
+            "match": {
+              "location": "iosStepdefs.iIOSChooseToSkipTheAddVinOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1668340023,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 33,
+                "value": "#    Then I IOS select the Direct Marketing switch to On"
+              },
+              {
+                "line": 34,
+                "value": "#    Then I IOS select the Collect Customer Data switch to On"
+              }
+            ],
+            "line": 35,
+            "name": "I IOS select Next",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectNext()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3645324930,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 36,
+                "value": "#"
+              }
+            ],
+            "line": 37,
+            "name": "I IOS create a Random password",
+            "match": {
+              "location": "iosStepdefs.iIOSCreateARandomPassword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1051858951,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I IOS Accept the Terms \u0026 Conditions",
+            "match": {
+              "location": "iosStepdefs.iIOSAcceptTheTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1081013970,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I IOS Complete Registration",
+            "match": {
+              "location": "iosStepdefs.iIOSCompleteRegistration()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14058523,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I close down the IOS simulator",
+            "match": {
+              "location": "iosStepdefs.iCloseDownTheSimulatorFor()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@ios"
+          }
+        ]
+      }
+    ],
+    "name": "Maserati IOS Demo",
+    "description": "",
+    "id": "maserati-ios-demo",
+    "keyword": "Feature",
+    "uri": "MaseratiIOS.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ios"
+      }
+    ]
+  }
+]
